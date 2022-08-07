@@ -17,38 +17,36 @@
             border: solid rgb(255, 0, 162);
         }
 
-        .img {
-            height: 150px;
-            width: 150px;
+        .image {
+
+            height: 100PX;
+            object-fit: cover;
+            object-position: 80% 100%;
+            width: 100px;
             display: inline-block;
-            background-color: aqua;
-           
+            padding-inline-end: 300PX;
 
         }
 
-        .taxebox {
-            height: 150px;
-            width: 200px;
+        .textbox {
+            height: 300px;
+            width: 350px;
             display: inline-block;
-            margin-left: 150PX;
-           
+            margin-left: 80PX;
+            font: left;            < !-- background-color: blue;
+            -->;
 
         }
 
-        .text {
-            height: 100vh;
-            width: 100vh;
-            display: Inline-block;
-             
-        }
 
         .menu {
-            height: 20px;
-            width: 30px;
-            display: inline;
+            height: 25px;
+            width: 50px;
+            display: inline-block;
             margin-left: 10px;
-            background-color: 
-            rebeccapurple;
+            < !-- background-color:
+                rebeccapurple;
+            -->
         }
     </style>
 </head>
@@ -56,26 +54,32 @@
 <body>
     <h2> Confronto </h2>
     <hr class="hr">
-    <div class="menu"> Catalog </div>
-    <div class="menu"> Compare(0) </div>
-    <div class="text">
-        <div class="img">
-            <img src="vivo-S15-Pro.jpg" alt="" height="" width="">
-        </div>
-        <div class="textbox">
+    <span class="menu"> Catalog
 
-            <h2>Apple iPhone 11 (128GB) - Black </h2>
-            <ul>
-                <li> Rear Camera: 12MP ultra wide & wide Cameras</li>
-                <li> Front Camera : 12MP TrueDepth camera</li>
-                <li> Screen: 6.1-inch liquid Retina HD</li>
-                <li>Storage : 128GB</li>
-                <li> Os : Apple iOS</li>
-                <li> Cost: $858.21</li>
-
-            </ul>
-        </div>
+    </span>
+    <span class="menu"> Compare(0)
+        
+    </span>
+    <hr>
+    <br>
+    <div class="image">
+        <img src="vivo-S15-Pro.jpg" alt="" height="200px" width="200px">
     </div>
+    <div class="textbox">
+
+        <h2>Apple iPhone 11 (128GB) - Black </h2>
+        <ul>
+            <li> Rear Camera: 12MP ultra wide & wide Cameras</li>
+            <li> Front Camera : 12MP TrueDepth camera</li>
+            <li> Screen: 6.1-inch liquid Retina HD</li>
+            <li>Storage : 128GB</li>
+            <li> Os : Apple iOS</li>
+            <li> Cost: $858.21</li>
+
+        </ul>
+
+    </div>
+
 
 </body>
 
